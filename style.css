@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(/loopstudios-landing-page-main/images/desktop/image-hero.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+
+}
+
+header img{
+    margin-bottom: 60px;
+}
+.ham{
+    display: none;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 100px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    margin: 24px;
+    color: aquamarine;
+}
+
+h1{
+    color: antiquewhite;
+    margin-left: 40px;
+
+}
+h2{
+    color: aquamarine;
+    border: 5px solid wheat;
+    width: 400px;
+    margin-left: 60px;
+    margin-top: 10vh;
+    font-size: xx-large;
+    font-weight: 10;
+    text-transform: uppercase;
+    padding: 20px;
+
+}
+.interactive{
+    display: flex;
+    flex-direction: row;
+    padding: 4%;
+    margin-left: 15%;
+}
+
+.text-interactive{
+    font-size: x-large;
+    border-style: ridge;
+    margin-top: 20%;
+    width: 60%;
+    padding: 20px;
+    position: relative;
+    right: 15%;
+    background-color: aliceblue;
+
+}
+
+
+creation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    gap: 60%;
+}
+
+.button{
+    /* padding: 10px 30px; */
+    width: 90px;
+    height: 60px;
+}
+
+.avert-container{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    padding: 90px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.pic{
+    height: 20em;
+}
+
+.pic p{
+    width: 180px;
+    font-size: 1.3em;
+    margin-left: 40px;
+    margin-top: 12em;
+}
+
+.deepearth{
+    background-image: url(/loopstudios-landing-page-main/images/desktop/image-deep-earth.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+    color: antiquewhite;
+}
+
+.night{
+    background-image: url(/loopstudios-landing-page-main/images/desktop/image-night-arcade.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+    color: antiquewhite;
+}
+
+.soccer{
+    background-image: url(/loopstudios-landing-page-main/images/desktop/image-soccer-team.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+    color: antiquewhite;
+}
+
+.grid{
+    background-image: url(/loopstudios-landing-page-main/images/desktop/image-grid.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+    color: antiquewhite;
+}
+
+.from{
+    background-image: url(/loopstudios-landing-page-main/images/desktop/image-from-above.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+    color: antiquewhite;
+}
+
+.pocket{
+    
+        background-image: url(/loopstudios-landing-page-main/images/desktop/image-pocket-borealis.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 30px;
+        color: antiquewhite;
+}
+
+.curiosity{
+    background-image: url(/loopstudios-landing-page-main/images/desktop/image-curiosity.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+    color: antiquewhite;
+}
+
+
+ .make{
+    background-image: url(/loopstudios-landing-page-main/images/desktop/image-fisheye.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+    color: antiquewhite;
+}
+.below-button{
+    display: none;
+}
+
+footer{
+    background-color: black;
+}
+
+.foot1{
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction:column ;
+    gap:40%;
+    justify-self: center;
+    padding: 20px;
+}
+.foot2 p{
+    padding-right: 15px;
+    color:antiquewhite
+}
+
+.foot2 ul{
+    padding: 20px;
+}
+
+.icons{
+    padding: 20px;
+    margin: 40px;
+    /* border: 10px solid red; */
+    /* gap 20px */
+}
+
+
+@media (width <= 450px){
+    .ham{
+        display: flex
+    }
+    ul{
+        display: none;
+    }
+    h2{
+        color: aquamarine;
+        border: 2px solid wheat;
+        width: 250px;
+        margin-left: 20px;
+        /* margin-bottom:c */
+        font-size: xx-large;
+        font-weight: 10;
+        text-transform: uppercase;
+    
+    }
+
+    .interactive img{
+        width: 250px;
+        height: 200px;
+    
+    }
+    .text-interactive{
+        font-size: x-large;
+        border-style: ridge;
+        margin-top: 15%;
+        width: 90%;
+        background-color: aliceblue;
+    
+    }
+
+    .interactive{
+        flex-direction:column;
+        padding: 4%;
+        margin-left: 15%;
+    }
+    
+    .button{
+        display: none;
+    }
+    .below-button{
+        display: flex;
+        margin: auto;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+
+    
+    .avert-container{
+        grid-template-columns: 100%;
+        padding: 0px;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .pic{
+        display: block;
+        margin: auto;
+        height: 150px;
+        width: 90%;
+    }
+    .pic p{
+        width: 15px;
+        font: size 2px;
+        margin-top: 50px;
+    }
+    
+    .deepearth{
+        background-image: url(/loopstudios-landing-page-main/images/mobile/image-deep-earth.jpg);
+        background-position: center;
+        background-size: cover;
+        font-size: 25px;
+        color: antiquewhite;
+    }
+
+    .night{
+        background-image: url(/loopstudios-landing-page-main/images/mobile/image-night-arcade.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 25px;
+        color: antiquewhite;
+    }
+    
+    .soccer{
+        background-image: url(/loopstudios-landing-page-main/images/mobile/image-soccer-team.jpg);
+        background-position: center;
+        background-size: cover;
+        font-size: 25px;
+        color: antiquewhite;
+    }
+    
+    .grid{
+        background-image: url(/loopstudios-landing-page-main/images/mobile/image-grid.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 20px;
+        color: antiquewhite;
+    }
+    
+    .from{
+        background-image: url(/loopstudios-landing-page-main/images/mobile/image-from-above.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 15px;
+        color: antiquewhite;
+    }
+    
+    .pocket{
+        
+            background-image: url(/loopstudios-landing-page-main/images/mobile/image-pocket-borealis.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-size: 20px;
+            color: antiquewhite;
+    }
+    
+    .curiosity{
+        background-image: url(/loopstudios-landing-page-main/images/mobile/image-curiosity.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 20px;
+        color: antiquewhite;
+    }
+    
+    
+     .make{
+        background-image: url(/loopstudios-landing-page-main/images/mobile/image-fisheye.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 19px;
+        color: antiquewhite;
+    }
+}
+
+@media (width <= 400px){
+    .interactive img{
+        display: block;
+        width: 300px;
+        padding: 0;
+        margin: auto;
+        /* margin-left: 0px; */
+        height: 250px;
+        position
+    }
+}
